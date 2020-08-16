@@ -67,10 +67,6 @@ header {
     background-color: #222;
 }
 
-/* .logo > img {
-    margin: 10px;
-} */
-
 nav {
     font-weight: 400;
 }
@@ -159,12 +155,6 @@ nav > ul {
     color: #1688f0;
 }
 
-@media (max-width: 550px) {
-    #features .icon {
-        display: none;
-    }
-}
-
 #features .desc {
     display: flex;
     flex-direction: column;
@@ -172,15 +162,6 @@ nav > ul {
     height: 125px;
     width: 80vw;
     padding: 5px;
-}
-
-@media (max-width: 550px) {
-    #features .desc {
-        width: 100%;
-        text-align: center;
-        padding: 0;
-        height: 150px;
-    }
 }
 
 @media (max-width: 650px) {
